@@ -1,3 +1,22 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Poppins';
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer components {
+  .nav-item {
+    @apply text-gray-800 px-3 py-2 text-sm font-semibold transition duration-500 ease-in-out;
+  }
+
+  .nav-item:hover {
+    @apply bg-primary text-white;
+  }
+}

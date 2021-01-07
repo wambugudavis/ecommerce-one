@@ -1,4 +1,45 @@
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut culpa delectus distinctio eius error
-  eveniet exercitationem facere fuga inventore iusto magni maxime numquam optio perspiciatis, reiciendis similique.
-  Facere, optio!
+<div class="flex flex-col min-h-screen">
+  <app-navbar></app-navbar>
+  <div class="flex-1 flex flex-row">
+    <div class="w-1/2 h-screen -mt-24 pt-24 overflow-hidden pointer-events-none">
+      <img src="assets/girl2.jpg" class="object-cover" alt="girl">
+    </div>
+    <div class="w-1/2 py-6 px-16">
+      <div class="mt-2 mb-6">
+        <span class="text-gray-400 text-xs font-semibold tracking-wider">Woman / Lounge Wear</span>
+      </div>
+      <div class="mb-8">
+        <p class="text-black text-5xl font-bold uppercase">kashmiri kaftaan</p>
+      </div>
+      <div class="mt-2 mb-6">
+        <p class="text-gray-400 text-xs font-semibold tracking-wider leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Animi eum nihil odit praesentium provident qui suscipit. Alias amet blanditiis,
+          cum delectus dignissimos ex, incidunt molestias optio reprehenderit saepe sed sunt!</p>
+      </div>
+      <div class="my-2">
+        <p class="font-bold text-4xl">
+          KES 3,300
+          <span class="text-gray-400 text-2xl ml-3 line-through"> KES 4,000 </span>
+        </p>
+      </div>
+      <div class="my-8">
+        <p class="font-semibold text-sm">Choose size <span class="text-gray-500">(Size guide)</span></p>
+        <div class="my-4 flex flex-row">
+          <div class="border border-gray-400 text-gray-400 h-10 w-10 flex justify-center items-center mr-4">S</div>
+          <div class="border border-primary text-white bg-primary h-10 w-10 flex justify-center items-center mr-4">M
+          </div>
+          <div class="border border-gray-400 text-gray-400 h-10 w-10 flex justify-center items-center">L</div>
+        </div>
+      </div>
+
+      <div class="flex flex-row items-center text-sm font-semibold">
+        <div class="px-12 py-4 bg-primary text-white"> Add to Cart</div>
+        <div class="mx-12 flex flex-row items-center text-gray-500">
+          <svg-icon src="assets/heart.svg" [svgClass]="'h-5 mr-3'"></svg-icon>
+          <p>Add to Wishlist</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
