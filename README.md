@@ -3,7 +3,7 @@
 A sample dashboard UI built based on a design from this [Dribble shot](https://dribbble.com/shots/12953706-BatNorton-Product-Page-Concept)
 
 ## Demo
-[Dashboard](https://wambugudavis-ecommerce-one.netlify.com/)
+[Dashboard](https://wambugudavis-ecommerce-one.netlify.app/)
 
 ## Installing
 ```
